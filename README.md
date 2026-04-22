@@ -1,10 +1,10 @@
-# 🏎️ Formula 1 Win Probability Predictor
+#  Formula 1 Win Probability Predictor
 
 > Predict the winning probability of any F1 driver for a specific **Grand Prix & Season** using historical race and qualifying data.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project uses **Machine Learning (XGBoost – Tuned with GridSearchCV)** to predict the probability of a driver winning a particular race based on:
 
@@ -16,29 +16,29 @@ This project uses **Machine Learning (XGBoost – Tuned with GridSearchCV)** to 
 
 ---
 
-## 🧠 Models & Techniques Used
+##  Models & Techniques Used
 
 | Step | Method |
 |------|--------|
 | Data Preprocessing | Merge + Feature Engineering |
 | Models Tried | Logistic Regression, Random Forest, XGBoost |
-| Best Model | ✅ XGBoost with Hyperparameter Tuning |
+| Best Model |  XGBoost with Hyperparameter Tuning |
 | Evaluation | Accuracy, F1 Score, ROC-AUC, Confusion Matrix |
 | Final Output | Win probability based on user input |
 
 ---
 
-## ⭐ Key Features
+##  Key Features
 
-✅ Predict **win probability** for a driver in a particular race & year  
-✅ User can input driver last name, race name, and year  
-✅ Automatically fetches grid & qualifying position from dataset  
-✅ No warnings, clean & optimized prediction pipeline  
-✅ Supports unseen race/driver scenarios safely  
+ Predict **win probability** for a driver in a particular race & year  
+ User can input driver last name, race name, and year  
+ Automatically fetches grid & qualifying position from dataset  
+ No warnings, clean & optimized prediction pipeline  
+ Supports unseen race/driver scenarios safely  
 
 ---
 
-## 📂 Dataset Used
+##  Dataset Used
 
 | File | Description |
 |------|-------------|
@@ -51,13 +51,13 @@ Dataset Source: Kaggle – Formula 1 World Championship Data 1950-2024
 
 ---
 
-## 🔗 Kaggle Notebook (Project Code)
+##  Kaggle Notebook (Project Code)
 
-👉 https://www.kaggle.com/code/nagratna5207/ml-project-nagratna
+ https://www.kaggle.com/code/nagratna5207/ml-project-nagratna
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -68,11 +68,11 @@ Dataset Source: Kaggle – Formula 1 World Championship Data 1950-2024
 
 ---
 
-## 🏁 Sample Output
-🏎️ Driver: Lewis Hamilton
-📍 Race: Abu Dhabi Grand Prix (2021)
-🚦 Grid Position: 1
-🎯 Win Probability: 87.32%
+##  Sample Output
+ Driver: Lewis Hamilton
+ Race: Abu Dhabi Grand Prix (2021)
+ Grid Position: 1
+ Win Probability: 87.32%
 
 
 
